@@ -1,0 +1,11 @@
+menu
+{
+  display: flex;
+  border: 1px solid rebeccapurple;
+  width: 100%;
+}
+
+menu img
+{
+  width: 140px;
+}

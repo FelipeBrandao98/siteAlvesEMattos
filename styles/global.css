@@ -1,0 +1,59 @@
+html
+{
+  --background: #D1D1D1;
+  --background-2: #ECECEC;
+  --text: #131414;
+  --text-hover: rgba(0,0,0,0.9);
+  --background-blur: rgba(255, 255, 255, 0.72);
+  --border: #FCFCFC;
+
+  --checked: #8FBC8F;
+  --highlight: #CD5C5C;
+  --highlight-2: #A85252;
+
+  --modal-background: #F3F3F3;
+  --modal-background-dark: #121212;
+
+  --background-dark: #1F2020;
+  --background-2-dark: #3B3B3B;
+  --text-dark: #E4E4E2;
+  --text-hover-dark: rgba(255,255,255,0.9);
+  --background-blur-dark: rgba(50, 50, 50, 0.66);
+  --border-dark: #000;
+
+  --blur: blur(30px) saturate(120%);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  transition: color 0.9s;
+  transition: background-color 1s;
+}
+body
+{
+  background: var(--background);
+  color: var(--text);
+}
+.night-mode body
+{
+  background: var(--background-dark);
+  color: var(--text-dark);
+}
+a
+{
+  color: var(--text);
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+.night-mode a
+{
+  color: var(--text-dark);
+}
