@@ -1,15 +1,39 @@
 header
 {
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rebeccapurple;
+  justify-content: flex-end;
+  gap: 10px;
+  border-bottom: 1px solid var(--border);
   height: 80px;
   width: 100%;
+  background-color: var(--header);
+}
+
+.night-mode header
+{
+  background-color: var(--header-dark);
+  border-color: var(--border-dark);
 }
 
 header img
 {
-  width: 140px;
+  position: fixed;
+  left: 10px;
+  width: 200px;
+  height: 80px;
+  background-image: url(../../assets/logo/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  border: none;
+}
+
+.night-mode header img
+{
+  background-image: url(../../assets/logo/logo-dark.png);
 }

@@ -1,11 +1,26 @@
-menu
+header menu
 {
   display: flex;
-  border: 1px solid rebeccapurple;
-  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 480px;
+  height: 100%;
 }
 
-menu img
+header menu a
 {
-  width: 140px;
+  height: 100%;
+  line-height: 80px;
+}
+header menu a.selected,
+header menu a:hover
+{
+  text-decoration: none;
+  border-bottom: 3px solid var(--border-dark);
+}
+
+.night-mode header menu a.selected,
+.night-mode header menu a:hover
+{
+  border-bottom: 3px solid var(--border);
 }

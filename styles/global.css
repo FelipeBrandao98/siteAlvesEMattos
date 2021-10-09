@@ -1,25 +1,23 @@
 html
 {
+  --header: #FFF;
+  --header-dark: rgb(146, 146, 146);
+
+  --border: rgb(219, 219, 219);
+  --border-dark: rgb(161, 161, 161);
+
   --background: #D1D1D1;
   --background-2: #ECECEC;
   --text: #131414;
-  --text-hover: rgba(0,0,0,0.9);
-  --background-blur: rgba(255, 255, 255, 0.72);
-  --border: #FCFCFC;
+
 
   --checked: #8FBC8F;
   --highlight: #CD5C5C;
   --highlight-2: #A85252;
 
-  --modal-background: #F3F3F3;
-  --modal-background-dark: #121212;
-
-  --background-dark: #1F2020;
+  --background-dark: #6e6e6e;
   --background-2-dark: #3B3B3B;
   --text-dark: #E4E4E2;
-  --text-hover-dark: rgba(255,255,255,0.9);
-  --background-blur-dark: rgba(50, 50, 50, 0.66);
-  --border-dark: #000;
 
   --blur: blur(30px) saturate(120%);
 }
