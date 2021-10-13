@@ -5,7 +5,7 @@
 </head>
 <body>
   <header id="header-animated" class="on-top">
-    <img alt="Alves E Mattos">
+    <span id="logo"></span>
 
     <menu>
       <a href="" class="selected">HOME</a>

@@ -19,7 +19,7 @@ header
   border-color: var(--border-dark);
 }
 
-header img
+header span#logo
 {
   position: fixed;
   left: 10px;
@@ -33,7 +33,7 @@ header img
   border: none;
 }
 
-.night-mode header img
+.night-mode header span#logo
 {
   background-image: url(../../../assets/logo/logo-dark.png);
 }
@@ -47,7 +47,7 @@ header.on-top
   animation: slideDownHeader 2s;
 }
 
-header.on-top img
+header.on-top span#logo
 {
   width: 400px;
   height: 220px;
