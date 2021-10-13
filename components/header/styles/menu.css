@@ -24,3 +24,13 @@ header menu a:hover
 {
   border-bottom: 3px solid var(--border);
 }
+
+header.on-top menu
+{
+  align-items: baseline;
+}
+
+header.on-top menu a
+{
+  height: 80px;
+}

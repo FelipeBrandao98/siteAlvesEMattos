@@ -54,7 +54,7 @@ header .toggle label:active:after {
 header .toggle .toggle{
   display: flex;
   flex-direction: row;
-  margin: 0 14px;clear: ;
+  margin: 0 14px;
   width: 150px;
 }
 header .toggle span{
@@ -70,10 +70,5 @@ header .toggle span{
 header .toggle span
 {
   font-size: 23px;
-
-}
-
-header .toggle span:last-child
-{
 
 }

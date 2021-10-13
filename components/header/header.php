@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="components/header/styles/inputdarkmode.css">
 </head>
 <body>
-  <header>
+  <header id="header-animated" class="on-top">
     <img alt="Alves E Mattos">
 
     <menu>
@@ -27,4 +27,5 @@
   </header>
   
   <script src="components/header/scripts/nightmode.js"></script>
+  <script src="components/header/scripts/headerUpDown.js"></script>
 </body>

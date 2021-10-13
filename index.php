@@ -15,5 +15,17 @@
   <?php
     include_once 'components/header/header.php';
   ?>
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
+  <img src="assets/logo/logo-dark.png" alt="">
 </body>
 </html>

@@ -37,3 +37,18 @@ header img
 {
   background-image: url(../../../assets/logo/logo-dark.png);
 }
+
+header.on-top
+{
+  height: 220px;
+  background: transparent;
+  align-items: baseline;
+  border: none;
+  animation: slideDownHeader 2s;
+}
+
+header.on-top img
+{
+  width: 400px;
+  height: 220px;
+}
