@@ -1,0 +1,110 @@
+@keyframes openMenuMobile {
+  0% {left: -400px;}
+  100% {left: 0;}
+}
+
+@keyframes closeMenuMobile {
+  0% {left: 0;}
+  100% {left: -400px;}
+}
+
+@media (max-width: 860px) {
+  header menu
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-bottom: 100px;
+
+    width: 400px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    animation: openMenuMobile 1.8s;
+    -webkit-animation: openMenuMobile 1.8s;
+  }
+
+  header menu.hide
+  {
+    left: -400px;
+    animation: closeMenuMobile 1.8s;
+    -webkit-animation: closeMenuMobile 1.8s;
+  }
+
+  header menu .button-open-close-area
+  {
+    display: flex;
+    width: 80px;
+    height: 80px;
+
+    position: fixed;
+    left: 20px;
+    top: 240px;
+
+    border-radius: 15px;
+
+    text-shadow: 2px 2px 5px #000;
+    box-shadow: 2px 2px 5px #000;
+
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+  }
+
+  header menu .button-open-close-area span
+  {
+    display: flex;
+    width: 80px;
+    height: 80px;
+
+    background-image: url(../../../assets/svg/arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    rotate: 180deg;
+    transition: rotate 1.8s;
+  }
+
+  header menu.hide .button-open-close-area span
+  {
+    rotate: 0deg;
+    transition: rotate 1.8s;
+  }
+
+  header menu .button-open-close-area span:hover
+  {
+    border: none;
+    cursor: pointer;
+  }
+
+  header menu a
+  {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 80px;
+    width: 360px;
+
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+
+    border-radius: 15px;
+
+    color: #FFF;
+    font-weight: bold;
+
+    text-shadow: 2px 2px 5px #000;
+    box-shadow: 2px 2px 5px #000;
+  }
+
+  header menu a.selected,
+  header menu a:hover,
+  .night-mode header menu a.selected,
+  .night-mode header menu a:hover
+  {
+    border: 3px dashed var(--border);
+  }
+}

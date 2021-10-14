@@ -5,6 +5,12 @@ header menu
   justify-content: space-evenly;
   width: 480px;
   height: 100%;
+  z-index: 1;
+}
+
+header menu span
+{
+  display: none;
 }
 
 header menu a
