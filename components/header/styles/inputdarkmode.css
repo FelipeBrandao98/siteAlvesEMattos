@@ -5,6 +5,7 @@ header .toggle
   justify-content: center;
   width: 168px;
   height: 40px;
+  z-index: 2;
 }
 
 header .toggle input[type=checkbox]{

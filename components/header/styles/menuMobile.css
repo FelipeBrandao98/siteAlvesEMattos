@@ -1,23 +1,24 @@
 @keyframes openMenuMobile {
-  0% {left: -400px;}
+  0% {left: -50vw;}
   100% {left: 0;}
 }
 
 @keyframes closeMenuMobile {
   0% {left: 0;}
-  100% {left: -400px;}
+  100% {left: -50vw;}
 }
 
 @media (max-width: 860px) {
-  header menu
+  header menu,
+  header.on-top menu
   {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 20px;
-    padding-bottom: 100px;
+    gap: 2vh;
+    padding-bottom: 2vh;
 
-    width: 400px;
+    width: 50vw;
 
     position: fixed;
     top: 0;
@@ -27,22 +28,24 @@
     -webkit-animation: openMenuMobile 1.8s;
   }
 
-  header menu.hide
+  header menu.hide,
+  header.on-top menu.hide
   {
-    left: -400px;
+    left: -50vw;
     animation: closeMenuMobile 1.8s;
     -webkit-animation: closeMenuMobile 1.8s;
   }
 
-  header menu .button-open-close-area
+  header menu .button-open-close-area,
+  header.on-top menu .button-open-close-area
   {
     display: flex;
-    width: 80px;
-    height: 80px;
+    width: 10vh;
+    height: 10vh;
 
     position: fixed;
-    left: 20px;
-    top: 240px;
+    left: 2.5vw;
+    bottom: 50vh;
 
     border-radius: 15px;
 
@@ -53,11 +56,12 @@
     -webkit-backdrop-filter: var(--blur);
   }
 
-  header menu .button-open-close-area span
+  header menu .button-open-close-area span,
+  header.on-top menu .button-open-close-area span
   {
     display: flex;
-    width: 80px;
-    height: 80px;
+    width: 10vh;
+    height: 10vh;
 
     background-image: url(../../../assets/svg/arrow.svg);
     background-size: contain;
@@ -68,31 +72,35 @@
     transition: rotate 1.8s;
   }
 
-  header menu.hide .button-open-close-area span
+  header menu.hide .button-open-close-area span,
+  header.on-top menu.hide .button-open-close-area span
   {
     rotate: 0deg;
     transition: rotate 1.8s;
   }
 
-  header menu .button-open-close-area span:hover
+  header menu .button-open-close-area span:hover,
+  header.on-top menu .button-open-close-area span:hover
   {
     border: none;
     cursor: pointer;
   }
 
-  header menu a
+  header menu a,
+  header.on-top menu a
   {
     display: flex;
     align-self: center;
     justify-content: center;
-    height: 80px;
-    width: 360px;
+    height: 10vh;
+    width: 45vw;
 
     backdrop-filter: var(--blur);
     -webkit-backdrop-filter: var(--blur);
 
     border-radius: 15px;
 
+    line-height: 10vh;
     color: #FFF;
     font-weight: bold;
 
@@ -103,7 +111,11 @@
   header menu a.selected,
   header menu a:hover,
   .night-mode header menu a.selected,
-  .night-mode header menu a:hover
+  .night-mode header menu a:hover,
+  header.on-top menu a.selected,
+  header.on-top menu a:hover,
+  .night-mode header.on-top menu a.selected,
+  .night-mode header.on-top menu a:hover
   {
     border: 3px dashed var(--border);
   }

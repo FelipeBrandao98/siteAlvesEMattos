@@ -1,0 +1,16 @@
+@media (max-width: 860px) {
+  header .toggle,
+  header.on-top .toggle
+  {
+    margin-top: 1vh;
+    margin-left: 1vh;
+  }
+
+  header.on-top span#logo
+  {
+    height: 30vh;
+    width: 80vw;
+    gap: 0;
+    left: 0;
+  }
+}
