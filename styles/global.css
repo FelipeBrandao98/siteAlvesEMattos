@@ -1,14 +1,14 @@
 html
 {
-  --header: #FFF;
-  --header-dark: rgb(146, 146, 146);
+  --header: #FFFC;
+  --header-dark: #333C;
 
   --border: rgb(219, 219, 219);
   --border-dark: rgb(161, 161, 161);
 
   --background: #D1D1D1;
   --background-2: #ECECEC;
-  --text: #131414;
+  --text: #000;
 
 
   --checked: #8FBC8F;
@@ -17,7 +17,7 @@ html
 
   --background-dark: #6e6e6e;
   --background-2-dark: #3B3B3B;
-  --text-dark: #E4E4E2;
+  --text-dark: #FFF;
 
   --blur: blur(30px) saturate(120%);
 }

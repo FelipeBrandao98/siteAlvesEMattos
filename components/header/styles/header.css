@@ -11,6 +11,9 @@ header
   height: 80px;
   width: 100%;
   background-color: var(--header);
+
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
 }
 
 .night-mode header
@@ -45,6 +48,9 @@ header.on-top
   align-items: baseline;
   border: none;
   animation: slideDownHeader 2s;
+
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 }
 
 header.on-top span#logo
