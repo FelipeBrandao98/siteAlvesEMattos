@@ -14,6 +14,7 @@
 <body>
   <?php
     include_once 'components/header/header.php';
+    include_once 'components/slideShow/slideShow.php';
   ?>
   <!-- <img src="assets/logo/logo-dark.png" alt="">
   <img src="assets/logo/logo-dark.png" alt="">
