@@ -3,8 +3,8 @@ html
   --header: #FFFC;
   --header-dark: #333C;
 
-  --border: rgb(219, 219, 219);
-  --border-dark: rgb(161, 161, 161);
+  --border: #BBB;
+  --border-dark: #333;
 
   --background: #D1D1D1;
   --background-2: #ECECEC;

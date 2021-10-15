@@ -52,8 +52,16 @@
     text-shadow: 2px 2px 5px #000;
     box-shadow: 2px 2px 5px #000;
 
+    background-color: var(--header);
+
     backdrop-filter: var(--blur);
     -webkit-backdrop-filter: var(--blur);
+  }
+
+  .night-mode header menu .button-open-close-area,
+  .night-mode header.on-top menu .button-open-close-area
+  {
+    background-color: var(--header-dark);
   }
 
   header menu .button-open-close-area span,
@@ -70,6 +78,12 @@
 
     rotate: 180deg;
     transition: rotate 1.8s;
+  }
+
+  .night-mode header menu .button-open-close-area span,
+  .night-mode header.on-top menu .button-open-close-area span
+  {
+    background-image: url(../../../assets/svg/arrow-dark.svg);
   }
 
   header menu.hide .button-open-close-area span,
@@ -95,28 +109,40 @@
     height: 10vh;
     width: 45vw;
 
+    background-color: var(--header);
+
     backdrop-filter: var(--blur);
     -webkit-backdrop-filter: var(--blur);
 
     border-radius: 15px;
 
     line-height: 10vh;
-    color: #FFF;
+    color: var(--text);
     font-weight: bold;
 
-    text-shadow: 2px 2px 5px #000;
     box-shadow: 2px 2px 5px #000;
+  }
+
+  .night-mode header menu a,
+  .night-mode header.on-top menu a
+  {
+    background-color: var(--header-dark);
+    color: var(--text-dark);
   }
 
   header menu a.selected,
   header menu a:hover,
+  header.on-top menu a.selected,
+  header.on-top menu a:hover
+  {
+    border: 3px dashed var(--border);
+  }
+
   .night-mode header menu a.selected,
   .night-mode header menu a:hover,
-  header.on-top menu a.selected,
-  header.on-top menu a:hover,
   .night-mode header.on-top menu a.selected,
   .night-mode header.on-top menu a:hover
   {
-    border: 3px dashed var(--border);
+    border: 3px dashed var(--border-dark);
   }
 }
