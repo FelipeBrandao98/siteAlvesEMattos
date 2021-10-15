@@ -17,6 +17,7 @@ header menu a
 {
   height: 100%;
   line-height: 80px;
+  font-weight: bold;
 }
 header menu a.selected,
 header menu a:hover
