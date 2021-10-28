@@ -14,6 +14,8 @@ header
 
   -webkit-backdrop-filter: var(--blur);
   backdrop-filter: var(--blur);
+
+  z-index: 1000;
 }
 
 .night-mode header

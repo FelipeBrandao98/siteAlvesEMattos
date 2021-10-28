@@ -5,6 +5,8 @@
     position: fixed;
     top: 2vh;
     right: 1vh;
+    
+    z-index: 1000;
   }
 
   
