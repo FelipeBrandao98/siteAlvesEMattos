@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="styles/global.css">
 
 
-  <title>Alves E Mattos - Advogados Associados</title>
+  <title>Alves & Mattos - Advogados Associados</title>
 </head>
 <body>
   <?php
     include_once 'components/header/header.php';
     include_once 'components/slideShow/slideShow.php';
+    include_once 'components/slogan/slogan.php';
   ?>
   <!-- <img src="assets/logo/logo-dark.png" alt="">
   <img src="assets/logo/logo-dark.png" alt="">
